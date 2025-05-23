@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.wrapper{
+  /* border: 1px solid black; */
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.clearfix{
+  float: none;
+  clear: both;
+}
+
+.tbl-full{
+  width: 100%;
+}
+
+.tbl-30{
+  width: 30%;
+}
+.tbl-40{
+  width: 45%;
+}
+
+table{
+  margin-top: 1rem;
+}
+table tr th{
+  border-bottom: 1px solid gray;
+  padding: 1%;
+  text-align: left;
+}
+
+table tr td{
+  padding: 1%;
+  /* text-align: center; */
+}
+
+.btn-primary{
+  background-color: #1e90ff;
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-primary:hover{
+  background-color: #3742fa;
+}
+
+.btn-secondary{
+  background-color: #7bed9f;
+  color: rgb(6, 6, 6);
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 1.5%;
+}
+
+.btn-secondary:hover{
+  background-color: #2ed573;
+}
+
+.btn-danger{
+  background-color: #ff6b81;
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 1.5%;
+}
+
+.btn-danger:hover{
+  background-color: #ff4757;
+}
+.sucess{
+  color: green;
+}
+
+.error{
+  color: rgb(247, 16, 16);
+}
+
+
+
+
+/* css for menu */
+.menu{
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.menu ul{
+  list-style-type: none;
+}
+
+.menu ul li{
+  display: inline;
+  padding: 1%;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff6b81;
+}
+
+.menu ul li a:hover{
+  color: aqua;
+}
+
+/* css for main content */
+.main-content{
+  /* margin: 1% 0; */
+  background-color: #ced6e0;
+  padding: 5% 0;
+}
+
+.col-4{
+  width: 18%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+/* css for footer */
+.footer{
+  background-color: #ff4757;
+  color: white;
+}
+
+
+/* css for login */
+.login{
+  width: 20%;
+  border: 1px solid gray;
+  margin: 10% auto;
+  padding: 2%;
+  background: #dde4ed;
+}
+
+.in{
+  margin-top: 0.8rem;
+  padding: 2%;
+  border-radius: 10px;
+  border: 0.5px solid;
+  font-weight: bold;
+  outline: none;
+  padding-left: 0.7rem;
+  
+}
